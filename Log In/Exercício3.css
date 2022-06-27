@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F8EFEF;
+    min-height: 100vh;
+}
+
+.card {
+    width: 610px;
+    min-height: 708px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 64px 90px 56px 90px;
+}
+
+.face button {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 45px;
+    width: 207px;
+    height: 55px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    margin-bottom: 55px;
+}
+
+.linha2 {
+    width: 430px;
+    height: 0;
+    border: 1px solid #CAD6E4;
+    margin-bottom: 35px;
+}
+
+.log    {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.google button {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 55px;
+    width: 207px;
+    height: 55px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+input {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #343945;
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 430px;
+    height: 73px;
+    padding: 25px 25px;
+    margin-bottom: 16px;
+}
+
+.linha1 button {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #046586;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 157px;
+    height: 73px;
+    cursor: pointer;
+}   
+
+
+
+.next .nome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.next .imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.link a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C6787;
+}
+
+.titulo h1 {
+    font-family: 'Rokkitt', serif;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #161843;
+}
+
+.texto {
+    width: 339px;
+    height: 47px;
+    margin-bottom: 52px;
+}
+
+.texto p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #161843;
+    
+
+}
+
+.linha1 a {
+    text-decoration: none;
+}
+
+.email input::placeholder {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #717A91;
+}
+
+.next .nome p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.log p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;  
+    color: #838A9E;
+}
+
+.redes .nome {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.rodape p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px; 
+    color: #000000;
+}
+
+.rodape a{
+    color: #0C6787;
+}
+
+input:focus {
+    border: 1px solid #26394F;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.next button:hover {
+    background: #046586;
+    border-radius: 5px;
+}
+
+.redes button:hover {
+    background: #FFFFFF;
+    border: 1px solid #26394F;
+    box-sizing: border-box;
+    border-radius: 5px;
+}

@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+.card {
+
+    box-sizing: border-box;
+    width: 1440px;
+    height: 4174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linha1 {
+    height: 800px;
+    background-image: url(assets//image-header.jpg);
+    background-size: cover;
+}
+
+.linha2 {
+    display: flex;
+    
+}
+
+.linha3 {
+    display: flex;
+}
+.linha3 .esquerda {
+    background-color: hsl(7, 99%, 70%);
+    height: 600px;
+    flex-grow: 1;
+    flex-basis: 720px;
+
+}
+
+.linha3 .direita {
+    
+    flex-grow: 1;
+    flex-basis: 720px;
+    padding: 158px 110px 157px 165px;
+    box-sizing: border-box;
+}
+
+.linha4 {
+    display: flex;
+    height: 600px;
+}
+
+.linha4 .esquerda {
+    flex-basis: 720px;
+    background-color: hsl(167, 40%, 24%);
+    flex-grow: 1;
+    background-image: url(assets//image-graphic-design.jpg);
+    padding: 0 190px;
+    box-sizing: border-box;
+}
+
+.linha4 .direita {
+    flex-basis: 720px;
+    flex-grow: 1;
+    background-color: violet;
+    background-image: url(assets//image-photography.jpg);
+    padding: 0 190px;
+    box-sizing: border-box;
+}
+
+
+
+
+.linha2 .esquerda {
+    height: 600px;
+    flex-basis: 720px;
+    padding: 158px 110px 157px 165px;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+.linha2 .direita {
+    height: 600px;
+    flex-basis: 720px;
+    background-color: hsl(51, 100%, 49%);
+    }
+
+
+
+li {
+    list-style-type: none;
+
+}
+
+.linha1 .about {
+    text-decoration: none;
+    color: white;
+    margin-right: 47px;
+}
+.linha1 .services {
+    text-decoration: none;
+    color: white;
+    margin-right: 47px;
+}
+.linha1 .projects {
+    text-decoration: none;
+    color: white;
+    margin-right: 47px;
+}
+
+ul {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    display: flex;   
+    justify-content: space-between;
+    margin-top: 34px;
+    margin-right: 48px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 46px;
+    margin-left: 40px;
+}
+
+.linha1 h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 56px;
+    line-height: 69px;    
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.titulo {
+    margin-top: 195px;
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
+    color: #24303E;
+    background: #FFFFFF;
+    border-radius: 28px;
+    padding: 15px 30px;
+    text-decoration: none;
+
+}
+
+.linha2 .esquerda h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;   
+    color: #24303E;
+    margin-bottom: 32px;
+}
+
+.linha2 .esquerda p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.128571px;    
+    color: #808397;
+    margin-bottom: 40px;
+
+}
+
+.linha2 .esquerda footer {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24303E;
+}
+
+.linha3 .direita h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    margin-bottom: 32px;
+}
+
+.linha3 .direita p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;   
+    letter-spacing: -0.128571px;   
+    color: #808397;
+    margin-bottom: 40px;
+
+}
+
+.linha3 .direita footer {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24303E;
+}
+
+.linha4 .esquerda h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;      
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #24554A;
+    margin-top: 400px;
+    margin-bottom: 27px;
+}
+
+.linha4 .esquerda p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;   
+    text-align: center;
+    letter-spacing: -0.114286px;    
+    color: #3E7467;
+}
+
+.linha4 .direita h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;   
+    letter-spacing: -0.2px;   
+    color: #052C3B;   
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-top: 400px;
+    margin-bottom: 27px ;
+    text-align: center;
+
+}
+
+.linha4 .direita p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;   
+    color: #19536C;
+}
+
+    .linha5 {
+        padding: 160px 165px;
+        height: 780px;
+        box-sizing: border-box;
+
+    }
+
+    .perfil {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 457px;
+
+
+    }
+
+    .perfil .emily {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+    .perfil .thomas {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.linha5 .jennie {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.emily img {
+     border-radius: 50%;
+     margin-left: 98.21px;
+     margin-top: 105px;
+    margin-bottom: 58px;  
+}
+
+.thomas img {
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-top: 105px;
+    margin-bottom: 58px;   
+}
+
+.jennie img {
+    border-radius: 50%;
+    margin-left: 98px;
+    margin-top: 105px;
+    margin-bottom: 58px;  
+}
+
+.emily .descricao {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.thomas .descricao {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    text-align: center;
+    margin: 0 30px 70px 30px;
+
+}
+
+.jennie .descricao {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+ .nome {
+    font-family: 'Fraunces', serif;
+
+    text-align: center;
+    margin-bottom: 9px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+}
+
+    
+.profissao {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;   
+}
+
+
+.fotos {
+    display: flex;
+    height: 444px;
+
+}
+
+
+.rodape {
+    height: 350px;
+    background: #90D4C6;
+    padding: 72px 572px;
+    box-sizing: border-box;
+}
+
+.leite {
+background-image: url(assets//image-gallery-milkbottles.jpg);
+flex-grow: 1;
+background-size: cover;
+}
+
+.laranja {
+    background-image: url(assets//image-gallery-orange.jpg);
+    flex-grow: 1;
+    background-size: cover;
+}
+
+.sorvete {
+    background-image: url(assets//image-gallery-cone.jpg);
+    flex-grow: 1;
+    background-size: cover;
+}
+
+.acucar {
+    background-image: url(assets//image-gallery-sugarcubes.jpg);
+    flex-grow: 1;
+    background-size: cover;
+}
+
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardrodape {
+    
+    height: 206px;
+    text-align: center;
+
+}
+
+.rodape img {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.links a {
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #458D7E;
+    margin-bottom: 88px;
+}
+
+.redes img {
+    display: inline-block;
+    margin-right: 28px;
+}

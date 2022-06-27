@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1F1C44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 517px;
+    min-height: 765px;
+    padding: 60px 90px 50px 90px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.email  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.google {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.or {
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.start {
+    text-align: center;
+    margin-bottom: 55px;
+
+}
+
+.rodape {
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    
+}
+
+.google button {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #5B86E6;
+    border-radius: 5px;
+    width: 337px;
+    height: 69px;
+    color: white;
+    display: flex;
+    padding: 0 72px;
+    cursor: pointer;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 69px;
+    text-align: center;   
+}
+
+input {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 337px;
+    height: 69px;
+    padding: 25px 22px;
+    font-weight: normal;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.start button {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #E65B7C;
+    border-radius: 5px; 
+    width: 337px;
+    height: 69px;
+    padding: 20px 123px;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #5B86E6;
+
+}
+
+.titulo h1 {
+    font-family: 'Neuton', serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.google p {
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.or p{
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #949495;
+}
+
+label {
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+input::placeholder {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949495;
+}
+
+.start p {
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.rodape p {
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;   
+    color: #000000;   
+}
+
+.google button:hover {
+    background: #5B86E6;
+    box-shadow: 0px 4px 13px rgba(19, 69, 178, 0.3);
+    border-radius: 5px;
+}
+
+input:focus {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.start button:hover {
+    background: #E65B7C;
+    box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+    border-radius: 5px;
+}
